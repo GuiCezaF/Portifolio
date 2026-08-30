@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Ambiente
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Notas internas de handoff
+.handoff-antigravity.md

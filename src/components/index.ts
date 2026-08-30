@@ -1,0 +1,11 @@
+export { ParticleBackground } from './ParticleBackground';
+export { Navbar } from './Navbar';
+export { Hero } from './Hero';
+export { About } from './About';
+export { Experience } from './Experience';
+export { Projects } from './Projects';
+export { ProjectModal } from './ProjectModal';
+export { Skills } from './Skills';
+export { AiTerminal } from './AiTerminal';
+export { Contact } from './Contact';
+export { Footer } from './Footer';

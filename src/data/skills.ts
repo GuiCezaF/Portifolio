@@ -1,0 +1,85 @@
+import { SkillCategory } from '../types';
+
+export const skillCategories: SkillCategory[] = [
+  {
+    id: 'ai_ml',
+    name: 'AI & Machine Learning',
+    namePt: 'IA e machine learning',
+    icon: 'Brain',
+    skills: [
+      { name: 'PyTorch', level: 85, category: 'ai_ml', hot: true, iconName: 'pytorch', description: 'Deep learning models, CNNs, and training loops', descriptionPt: 'Modelos de deep learning, CNNs e loops de treino' },
+      { name: 'ONNX Runtime', level: 88, category: 'ai_ml', hot: true, iconName: 'onnx', description: 'High-performance cross-platform model inference', descriptionPt: 'Inferência de modelos em diferentes plataformas' },
+      { name: 'LLM Orchestration', level: 92, category: 'ai_ml', hot: true, iconName: 'sparkles', description: 'Claude, GPT-4o, Gemini APIs, prompt engineering & agents', descriptionPt: 'APIs de Claude, GPT-4o e Gemini, prompts e agentes' },
+      { name: 'IBM watsonx', level: 82, category: 'ai_ml', iconName: 'ibm', description: 'Enterprise AI workflows, challenge validation & governance', descriptionPt: 'Fluxos de IA corporativa e validação em desafios' },
+      { name: 'OpenCV / Vision', level: 84, category: 'ai_ml', iconName: 'eye', description: 'Facial detection, feature extraction, real-time camera streams', descriptionPt: 'Detecção facial, extração de features e câmera em tempo real' },
+      { name: 'Embeddings & RAG', level: 86, category: 'ai_ml', iconName: 'database', description: 'Vector similarity search, semantic retrieval pipelines', descriptionPt: 'Busca por similaridade e recuperação semântica' },
+    ],
+  },
+  {
+    id: 'languages',
+    name: 'Languages & Runtimes',
+    namePt: 'Linguagens',
+    icon: 'Code2',
+    skills: [
+      { name: 'TypeScript', level: 95, category: 'languages', hot: true, iconName: 'typescript', description: 'Strict typing, modern generics, scalable enterprise code', descriptionPt: 'Tipagem estrita, generics e código escalável' },
+      { name: 'Python', level: 92, category: 'languages', hot: true, iconName: 'python', description: 'Async backends, AI/ML pipelines, scripting & data tools', descriptionPt: 'Backends assíncronos, pipelines de ML e scripts' },
+      { name: 'JavaScript (ESNext)', level: 95, category: 'languages', iconName: 'javascript', description: 'Modern asynchronous web standards and V8 execution', descriptionPt: 'JavaScript moderno e assíncrono no V8' },
+      { name: 'PHP', level: 88, category: 'languages', iconName: 'php', description: 'Laravel, CodeIgniter and server-rendered web apps', descriptionPt: 'Laravel, CodeIgniter e aplicações web no servidor' },
+      { name: 'SQL', level: 92, category: 'languages', iconName: 'sql', description: 'Complex relational schemas, query tuning, indexing & transactions', descriptionPt: 'Modelagem relacional, tuning de queries, índices e transações' },
+    ],
+  },
+  {
+    id: 'backend',
+    name: 'Backend & Distributed Systems',
+    namePt: 'Backend',
+    icon: 'Server',
+    skills: [
+      { name: 'Django / Django REST', level: 90, category: 'backend', hot: true, iconName: 'django', description: 'Robust modular architectures, ORM, auth & distributed services', descriptionPt: 'Arquitetura modular, ORM, autenticação e serviços distribuídos' },
+      { name: 'Node.js / Express', level: 92, category: 'backend', iconName: 'nodejs', description: 'Real-time REST & WebSocket APIs, event-driven gateways', descriptionPt: 'APIs REST e WebSocket, gateways orientados a eventos' },
+      { name: 'FastAPI / Flask', level: 88, category: 'backend', iconName: 'fastapi', description: 'Lightweight high-speed microservices and AWS Lambda handlers', descriptionPt: 'Microsserviços leves e handlers na AWS Lambda' },
+      { name: 'Laravel', level: 88, category: 'backend', iconName: 'laravel', description: 'Full-featured enterprise application development & Eloquent ORM', descriptionPt: 'Aplicações corporativas e Eloquent ORM' },
+      { name: 'Apache Kafka', level: 80, category: 'backend', hot: true, iconName: 'kafka', description: 'Event streaming, topic partitioning, high-throughput consumer groups', descriptionPt: 'Streaming de eventos, partições e consumidores' },
+      { name: 'Redis', level: 88, category: 'backend', iconName: 'redis', description: 'In-memory caching, distributed locks, pub/sub messaging', descriptionPt: 'Cache em memória, locks distribuídos e pub/sub' },
+      { name: 'CodeIgniter', level: 85, category: 'backend', iconName: 'codeigniter', description: 'Legacy and modernization of public municipal platforms', descriptionPt: 'Manutenção e modernização de plataformas municipais' },
+    ],
+  },
+  {
+    id: 'frontend',
+    name: 'Frontend Architecture',
+    namePt: 'Frontend',
+    icon: 'Layout',
+    skills: [
+      { name: 'React', level: 94, category: 'frontend', hot: true, iconName: 'react', description: 'SPAs, hooks and web interfaces', descriptionPt: 'SPAs, hooks e interfaces web' },
+      { name: 'Vue.js (3 / 2)', level: 88, category: 'frontend', iconName: 'vue', description: 'Composition API, reactive state management, municipal dashboards', descriptionPt: 'Composition API, estado reativo e dashboards' },
+      { name: 'Tailwind CSS', level: 96, category: 'frontend', hot: true, iconName: 'tailwind', description: 'Responsive layouts and utility-first design systems', descriptionPt: 'Layouts responsivos e design systems utilitários' },
+      { name: 'HTML5 Canvas & WebSockets', level: 86, category: 'frontend', iconName: 'canvas', description: 'Real-time 60 FPS interactive graphics, VTT game engines', descriptionPt: 'Gráficos interativos em tempo real e motores de VTT' },
+      { name: 'Next.js / Vite', level: 92, category: 'frontend', iconName: 'vite', description: 'Fast bundling, optimized client builds, SPA architecture', descriptionPt: 'Bundling rápido, builds otimizados e SPAs' },
+      { name: 'State Management', level: 90, category: 'frontend', iconName: 'layers', description: 'Zustand, React Context, Pinia, reactive stores', descriptionPt: 'Zustand, React Context, Pinia e stores reativos' },
+    ],
+  },
+  {
+    id: 'cloud_devops',
+    name: 'Cloud & Infrastructure',
+    namePt: 'Nuvem e infraestrutura',
+    icon: 'Cloud',
+    skills: [
+      { name: 'AWS Lambda / S3 / EC2', level: 86, category: 'cloud_devops', hot: true, iconName: 'aws', description: 'Serverless functions, object storage, cloud compute', descriptionPt: 'Funções serverless, armazenamento e computação' },
+      { name: 'Docker & Containers', level: 90, category: 'cloud_devops', iconName: 'docker', description: 'Multi-stage builds, compose networks, microservice packaging', descriptionPt: 'Builds multi-stage, redes no Compose e empacotamento' },
+      { name: 'Kubernetes (K8s)', level: 78, category: 'cloud_devops', iconName: 'kubernetes', description: 'Pods, services, config maps & deployment manifests', descriptionPt: 'Pods, services, config maps e manifests' },
+      { name: 'CI/CD & GitHub Actions', level: 88, category: 'cloud_devops', iconName: 'github', description: 'Automated test suites, linter pipelines, container image publishing', descriptionPt: 'Testes, lint e publicação de imagens' },
+      { name: 'Linux / Systems Admin', level: 90, category: 'cloud_devops', iconName: 'linux', description: 'Production server configuration, systemd, Nginx, shell scripting', descriptionPt: 'Servidores em produção, systemd, Nginx e shell' },
+    ],
+  },
+  {
+    id: 'databases',
+    name: 'Databases & Storage',
+    namePt: 'Bancos de dados',
+    icon: 'Database',
+    skills: [
+      { name: 'PostgreSQL', level: 92, category: 'databases', hot: true, iconName: 'postgres', description: 'Relational design, JSONB indexing, ACID compliance & replication', descriptionPt: 'Modelagem relacional, JSONB, ACID e replicação' },
+      { name: 'MySQL / MariaDB', level: 90, category: 'databases', iconName: 'mysql', description: 'Enterprise ERP schemas, query optimization & migrations', descriptionPt: 'Schemas de ERP, otimização de queries e migrações' },
+      { name: 'Redis Storage', level: 88, category: 'databases', iconName: 'redis', description: 'Ephemeral sessions, caching layer, rate limiters', descriptionPt: 'Sessões, cache e rate limit' },
+      { name: 'Vector DBs / Chroma', level: 82, category: 'databases', iconName: 'vector', description: 'Semantic vector indexes for RAG applications', descriptionPt: 'Índices vetoriais para aplicações de RAG' },
+    ],
+  },
+];
