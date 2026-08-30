@@ -149,7 +149,7 @@ export const Navbar: React.FC = () => {
               Guilherme Cezarino Felipe
             </span>
             <span className={`text-[11px] font-mono ${isLight ? 'text-cyan-700' : 'text-cyan-400'}`}>
-              Full Stack Júnior
+              Full Stack 
             </span>
           </div>
         </a>

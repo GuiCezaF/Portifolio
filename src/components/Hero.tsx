@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
   const roles =
     language === 'pt'
       ? [
-          'Desenvolvedor full stack júnior',
+          'Desenvolvedor full stack ',
           'Grupo Escalada',
           'TypeScript & React',
           'Engenharia da Computação',

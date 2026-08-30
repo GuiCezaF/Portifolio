@@ -64,7 +64,7 @@ export const About: React.FC = () => {
                     {language === 'pt' ? 'Atuação atual' : 'Current Role'}
                   </span>
                   <span className={`text-xs font-semibold mt-0.5 block ${isLight ? 'text-slate-800' : 'text-slate-200'}`}>
-                    {language === 'pt' ? 'Full Stack Júnior @ Grupo Escalada' : 'Junior Full Stack @ Grupo Escalada'}
+                    {language === 'pt' ? 'Full Stack  @ Grupo Escalada' : 'Junior Full Stack @ Grupo Escalada'}
                   </span>
                 </div>
 

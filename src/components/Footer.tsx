@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
             </div>
             <p className="text-xs text-slate-400 max-w-sm leading-relaxed">
               {language === 'pt'
-                ? 'Desenvolvedor full stack júnior • Sumaré, São Paulo, Brasil'
+                ? 'Desenvolvedor full stack  • Sumaré, São Paulo, Brasil'
                 : `${profileData.headline} • ${profileData.location}`}
             </p>
           </div>

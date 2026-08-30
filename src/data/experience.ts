@@ -16,7 +16,7 @@ export const rawExperiences: Experience[] = [
     current: true,
     translations: {
       pt: {
-        role: 'Desenvolvedor full stack júnior',
+        role: 'Desenvolvedor full stack ',
         company: 'Grupo Escalada',
         location: 'Campinas, SP',
         period: 'Ago 2026 — atual',

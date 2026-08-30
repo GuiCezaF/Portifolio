@@ -116,7 +116,7 @@ export const ptTranslations: Translations = {
   • clear      - Limpa o histórico
   • sudo       - Tenta virar root 😉`,
       about: `Guilherme Cezarino Felipe (@GuiCezaF)
-Desenvolvedor full stack júnior.
+Desenvolvedor full stack .
 Cidade: Sumaré, São Paulo, Brasil.
 Cursa Engenharia da Computação na UNASP, campus Hortolândia (2023–2027).
 Trabalha no Grupo Escalada.`,
