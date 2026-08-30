@@ -1,6 +1,6 @@
 # Portfólio — Guilherme Cezarino Felipe
 
-SPA do portfólio pessoal de [Guilherme Cezarino Felipe](https://github.com/GuiCezaF), desenvolvedor full stack júnior no Grupo Escalada.
+SPA do portfólio pessoal de [Guilherme Cezarino Felipe](https://github.com/GuiCezaF), Desenvolvedor Full Stack no Grupo Escalada.
 
 Site de página única, conteúdo estático, com seções de apresentação, experiência, projetos, habilidades, terminal interativo e contato.
 

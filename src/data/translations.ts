@@ -17,9 +17,9 @@ export const ptTranslations: Translations = {
     greeting: 'Olá, eu sou',
     name: 'Guilherme Cezarino Felipe',
     role: 'Desenvolvedor full stack, com interesse em machine learning',
-    subtitle: 'Desenvolvedor full stack júnior no Grupo Escalada. Desenvolvo sistemas confiáveis que resolvem problemas reais.',
+    subtitle: 'Desenvolvedor Full Stack no Grupo Escalada. Desenvolvo sistemas confiáveis que resolvem problemas reais.',
     tagline: 'Desenvolvo sistemas confiáveis que resolvem problemas reais.',
-    availability: 'Desenvolvedor full stack júnior no Grupo Escalada',
+    availability: 'Desenvolvedor Full Stack no Grupo Escalada',
     ctaProjects: 'Ver projetos',
     ctaContact: 'Fale comigo',
     ctaResume: 'Baixar CV',
@@ -35,7 +35,7 @@ export const ptTranslations: Translations = {
     subtitle: 'Um pouco da minha trajetória e do que me move na engenharia de software',
     bioParagraphs: [
       'Sou desenvolvedor de software, focado em aprender na prática e em construir projetos do começo ao fim. Gosto de código limpo, de resolver problemas de verdade e de explorar tecnologias novas.',
-      'Hoje atuo como desenvolvedor full stack júnior no Grupo Escalada.',
+      'Hoje atuo como Desenvolvedor Full Stack no Grupo Escalada.',
       'Antes, fui desenvolvedor na RETTA Tecnologia da Informação, trabalhando com Django, microsserviços em Node.js, CDN em tempo real, Flask na AWS Lambda e sistemas com CodeIgniter, Vue.js e PostgreSQL. Curso Engenharia da Computação na UNASP, campus Hortolândia (2023–2027).',
     ],
     philosophyTitle: 'Minha filosofia de engenharia',
@@ -137,7 +137,7 @@ Trabalha no Grupo Escalada.`,
   • GitHub:   https://github.com/GuiCezaF
   • LinkedIn: https://www.linkedin.com/in/guilherme-cezarino-felipe/
   • Cidade:   Sumaré / Campinas, São Paulo`,
-      hire: `Desenvolvedor full stack júnior no Grupo Escalada. Me chama no LinkedIn.`,
+      hire: `Desenvolvedor Full Stack no Grupo Escalada. Me chama no LinkedIn.`,
       stats: `Números:
   • Anos de experiência: 2+
   • Formação: Engenharia da Computação (UNASP, Hortolândia)
