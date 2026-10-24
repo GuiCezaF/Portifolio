@@ -11,6 +11,7 @@ import {
   AiTerminal,
   Contact,
   Footer,
+  DirectAdSidebar,
 } from './components';
 
 const PortfolioContent: React.FC = () => {
@@ -32,6 +33,7 @@ const PortfolioContent: React.FC = () => {
       {/* Main Sections */}
       <main className="relative z-10">
         <Hero />
+        <DirectAdSidebar />
         <About />
         <Experience />
         <Projects />

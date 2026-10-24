@@ -9,3 +9,4 @@ export { Skills } from './Skills';
 export { AiTerminal } from './AiTerminal';
 export { Contact } from './Contact';
 export { Footer } from './Footer';
+export { DirectAdSidebar } from './DirectAdSidebar';
