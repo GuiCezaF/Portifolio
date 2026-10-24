@@ -30,10 +30,12 @@ const PortfolioContent: React.FC = () => {
       {/* Fixed Glassmorphism Navbar */}
       <Navbar />
 
+      {/* Floating DirectAd Sidebar */}
+      <DirectAdSidebar />
+
       {/* Main Sections */}
       <main className="relative z-10">
         <Hero />
-        <DirectAdSidebar />
         <About />
         <Experience />
         <Projects />
